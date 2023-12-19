@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <!-- Chamada CSS bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+            <!-- Chamada Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <!-- Fim google fonts -->
+
+            <!-- Chamada icones bootstrap -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+            
+            <!-- Chamada CSS -->
+            <link rel="stylesheet" href="style.css">
+
+            <!-- Chamada JS -->
+            <script src="menu.js" defer></script>
+
+            <title>Aguiar Dev</title>
+        </head>
+        <body>
+            <header>
+                <div class="interface">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./images/logo.png.png" alt="Logo Aguiar Dev">
+                        </a>
+                    </div>
+                    <nav class="menu-desktop">
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Especialidades</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Projetos</a></li>
+                        </ul>
+                    </nav>
+                    <div class="btn-contato">
+                        <a href="#">
+                            <button>Contato</button>
+                        </a>
+                    </div>
+
+                    <div class="btn-abrir-menu" id="btn-menu">
+                        <i class="bi bi-list"></i>
+                    </div>
+
+                    <div class="menu-mobile" id="menu-mobile">
+                        <div class="btn-fechar">
+                            <i class="bi bi-x-lg"></i>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Início</a></li>
+                                <li><a href="#">Especialidades</a></li>
+                                <li><a href="#">Skills</a></li>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Projetos</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="overlay-menu" id="overlay-menu"></div>
+                </div>
+            </header>
+
+            <main>
+                <section class="topo-do-site">
+                    <div class="interface">
+                        <div class="flex">
+                            <div class="txt-topo-site">
+                                <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL <span>.</span></h1>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptates dicta atque eos sequi illo nobis officia eveniet repellat tempore, nisi mollitia? Est, numquam explicabo.</p>
+
+                                <div class="btn-contato">
+                                    <a href="#">
+                                        <button>Entre em contato</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="img-topo-site">
+                                <img src="./images/pessoa.png" alt="Foto do Desenvolvedor(Eu)">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="especialidades">
+                    <div class="interface">
+                        <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                        <div class="flex">
+                            <div class="especialidades-box">
+                                <i class="bi bi-code-square"></i>
+                                <h3>Website</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae magni eligendi, iusto aspernatur rerum.</p>
+                            </div>
+                            
+                            <div class="especialidades-box">
+                                <i class="bi bi-journal"></i>
+                                <h3>Cardápio digital</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae magni eligendi, iusto aspernatur rerum.</p>
+                            </div>
+
+                            <div class="especialidades-box">
+                                <i class="bi bi-info-square"></i>
+                                <h3>Informativo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae magni eligendi, iusto aspernatur rerum.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills">
+                    <div class="minhas-skills">
+                        <h1>Minhas skills</h1>
+                        <ul>
+                            <li>
+                                <h3>HTML</h3>
+                                <p>85%</p>
+                                <span class="barras"><span class="html"></span></span>
+                             </li>
+                            <li>
+                                <h3>CSS</h3>
+                                <p>70%</p>
+                                <span class="barras"><span class="css"></span></span>
+                            </li>
+                            <li>
+                                <h3>JAVASCRIPT</h3>
+                                <p>20%</p>
+                                <span class="barras"><span class="javascript"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <section class="sobre">
+                    <div class="interface">
+                        <div class="flex">
+                            <div class="img-sobre">
+                                <img src="./images/foto.png.png" alt="Foto do Desenvolvedor(Eu)">
+                            </div>
+                            <div class="txt-sobre">
+                                <h2>MUITO PRAZER, <span>SOU PEDRO AGUIAR</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel natus, nulla libero aliquid deleniti quo. Sit magnam accusamus in, voluptatem dolorum odit minus placeat laudantium, repellendus inventore vitae ratione fuga, necessitatibus sunt deserunt blanditiis corrupti.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut similique a est iure vero, consectetur soluta eaque et, cupiditate error temporibus! Ipsa, laudantium nihil vero aliquid optio harum aliquam inventore fugiat totam quo. Rerum, ad?</p>
+                                <div class="btn-social">
+                                    <a href="https://www.instagram.com/paguiar_dev/"><button><i class="bi bi-instagram"></i></button></a>
+                                    <a href="https://www.linkedin.com/in/pedro-henrique-aguiar-923503232/"><button><i class="bi bi-linkedin"></i></button></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portifolio">
+                    <div class="interface">
+                        <h2 class="titulo">Meu <span>Portifólio</span></h2>
+                        <div class="flex">
+                            <div class="img-port" style="background-image: url(images/imagem.png);">
+                                <div class="overlay">Projeto 1</div>
+                            </div>
+                            <div class="img-port" style="background-image: url(images/imagem.png);">
+                                <div class="overlay">Projeto 2</div>
+                            </div>
+                            <div class="img-port" style="background-image: url(images/imagem.png);">
+                                <div class="overlay">Projeto 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="formulario">
+                    <div class="interface">
+                        <h2 class="titulo">Entre em <span>Contato.</span></h2>
+
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Seu Nome Completo:" required>
+                            <input type="text" name="" id="" placeholder="Seu email:" required>
+                            <input type="text" name="" id="" placeholder="Seu celular:">
+                            <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+                            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                        </form>
+                    </div>
+                </section>
+
+            </main>
+
+            <footer>
+                <div class="interface">
+                    <div class="line-footer">
+                        <div class="flex">
+                            <div class="logo-footer">
+                                <img src="./images/Logo.png.png" alt="Logo Aguiar Dev">
+                            </div>
+                            <div class="btn-social">
+                                <a href="https://www.instagram.com/paguiar_dev/"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="https://www.linkedin.com/in/pedro-henrique-aguiar-923503232/"><button><i class="bi bi-linkedin"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-footer borda">
+                        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:p.aguiardev@gmail.com">p.aguiardev@gmail.com</a></p>
+                    </div>
+                </div>
+            </footer>
+
+        </body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </html>
